@@ -1,9 +1,4 @@
 $(document).ready(function() {
-	var complete = screen.width;
-	
-	if (complete < 1024) {
-		window.location.href="http://m.standbrightstudios.com";
-	}
 	
 	$.validator.addMethod("phones", function(phone_number, element) {
 	phone_number = phone_number.replace(/\(|\)|\s+|-/g, "");
